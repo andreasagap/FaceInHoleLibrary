@@ -1,6 +1,9 @@
 # FaceInHoleLibrary
 
 
+## Preview
+<img src="/screenshot.png" alt="SlideView" width="240">
+
 
 ## Setup
 
@@ -38,6 +41,20 @@ Here's a basic implementation.
   android:layout_height="match_parent" />
 ```
 
+
+In your code you can use the library like:
+```groovy
+Faceinhole faceinhole =(Faceinhole) findViewById(R.id.view);
+faceinhole.setImages(face,body);
+ImageView YourImageView=(ImageView) findViewById(R.id.yourimageview);
+YourImageView.setImageBitmap(faceinhole.mergeImages());
+```
+
+For take your drawable from the folder you can use :
+```groovy
+getResources().getDrawable(R.drawable.face)
+```
+*The function setImages() takes for arguments Bitmap or Drawable.*
 
 ## Author
 Andreas Agapitos ([@andreasagap](https://github.com/andreasagap))
