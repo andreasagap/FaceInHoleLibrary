@@ -2,7 +2,7 @@
 
 
 ## Preview
-<img src="/screenshot.png" alt="SlideView" width="240">
+<img src="/screenshot.png" width="240">
 
 
 ## Setup
@@ -55,6 +55,11 @@ For take your drawable from the folder you can use :
 getResources().getDrawable(R.drawable.face)
 ```
 *The function setImages() takes for arguments Bitmap or Drawable.*
+
+**You can handle the face image with these instruction**
+
+<img src="https://image.slidesharecdn.com/android-150224085125-conversion-gate02/95/android-ui-guide-4-638.jpg?cb=1424768120" width="240">
+
 
 ## Author
 Andreas Agapitos ([@andreasagap](https://github.com/andreasagap))
